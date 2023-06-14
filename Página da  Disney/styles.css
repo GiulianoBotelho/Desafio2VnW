@@ -7,7 +7,14 @@
 header {
   width: 100%;
   height: 296px;
-  background-color: black;
+  background-color: #1e1e1e;
+}
+
+.cabeçalho:hover {
+  transition: 240ms;
+  opacity:0.7;
+  scale: 1.02;
+
 }
 
 .logo {
@@ -18,7 +25,7 @@ header {
   margin-right: 500px;
 }
 
-ul {
+.primeiraLista {
   padding-left: 650px;
   padding-top: 130px;
 }
@@ -26,98 +33,76 @@ ul {
 li {
   font-family: "Lily Script One", cursive;
   display: inline-block;
-  padding-left: 100px;
-  padding-bottom: 100px;
-  font-size: 35px;
+  padding-left: 6.2rem;
+  padding-bottom: 10vh;
+  font-size: 2.2em;
   color: white;
-}
-
-figure {
-  display: inline-block;
-  padding-left: 180px;
-}
-
-.primeira {
-  width: 1700px;
-  height: 500px;
-  margin-top: 900px;
-  margin-left: 100px;
-}
-
-
-.segunda {
-  width: 1710px;
-  height: 600px;
-  margin-top: 150px;
-  padding-left: 100px;
-}
-
-
-
-.iconMain{
-  height: 513px;
-  width: 353px;
-  border-radius: 61px;
-  border: 3px solid;
-  
-}
-
-footer {
-  width: 100%;
-  color: white;
-  background-color: black;
-  font-family: "Actor", sans-serif;
-  display: flex;
-  font-style: normal;
-  font-weight: 400;
-  align-items: center;
-  font-size: 19px;
-  padding-right: 300px;
-  text-align: center;
-}
-
-
-.icon {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-}
-
-.final {
-  width: 300px;
-  display: flex;
-  justify-content: center;
-  padding-bottom: 20px;
-}
-
-p {
-  padding-top: 80px;
-}
-li {
+  cursor: pointer;
   transition: color 0.3s ease;
 }
 li:hover {
   color: yellow;
 }
 
-img {
-  transition: color 0, 3s ease;
+figure {
+  display: inline-block;
+  padding-left: 9.375vw;
 }
 
-.icon:hover {
-  transition: 240ms;
-  opacity: 0.7;
+.primeira {
+  width: 188.5vw;
+  height: 51.5vh;
+  margin-top: 92.8vh;
+  margin-left: 5.2vw;
 }
 
-.iconMain:hover{
+
+.segunda  {
+  width: 89.06vw;
+  height: 55.56vh;
+  margin-top: 13.89vh;
+  padding-left: 5.21vw;
+  
+}
+
+.iconMain {
+  cursor: pointer;
+  height: 47.5vh;
+width: 18.38vw;
+border-radius: 5.65vh;
+border: 0.16vw solid;
+  
+}
+.iconMain:hover {
   opacity: 0.9;
   transition: 240ms;
   scale: 1.1;
 }
 
-.cabeçalho:hover{
-  transition: 240ms;
-  opacity:0.7;
-  scale: 1.02;
-
+footer {
+    background-color: #1e1e1e;
+    color: #faebd7;
+    height: 26vh;
+    text-align: center;
+    padding-top: 80px;  
 }
+
+p  {
+  display: inline-block;
+  
+  font-size: 1.2rem;
+}
+
+.midia:hover {
+  transition: 240ms;
+  opacity: 0.7;
+}
+
+.midia {
+  vertical-align: middle;
+}
+
+.navRodape {
+  display: inline-block
+}
+
